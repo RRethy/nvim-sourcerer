@@ -10,6 +10,7 @@ let g:loaded_sourcerer = 1
 
 fun! s:on_event(j,d,e) abort
     source $MYVIMRC
+    echom printf('Sourced $MYVIMRC: %s', $MYVIMRC)
 endf
 
 if filereadable($MYVIMRC)
