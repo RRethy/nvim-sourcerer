@@ -1,3 +1,3 @@
-# Sourcerer
+# nvim-sourcerer
 
-Automatically source your $MYVIMRC when it gets modified anywhere.
+Automatically source your `init.lua` when it gets modified anywhere.
