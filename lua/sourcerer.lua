@@ -12,7 +12,7 @@ function M.setup()
     end))
     vim.cmd('augroup nvim_sourcerer')
     vim.cmd('  autocmd!')
-    vim.cmd('  autocmd VimLeave * lua require("sourcerer").watcher:stop()')
+    vim.cmd('  autocmd VimLeave * lua require("sourcerer").watcher and require("sourcerer").watcher:stop()')
     vim.cmd('augroup END')
 end
 
